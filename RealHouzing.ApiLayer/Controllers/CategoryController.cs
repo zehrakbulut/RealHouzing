@@ -10,7 +10,7 @@ namespace RealHouzing.ApiLayer.Controllers
     [ApiController]
     public class CategoryController : ControllerBase
     {
-        private readonly ICategoryService _categoryService;
+        private readonly ICategoryService _categoryService; 
 
         public CategoryController(ICategoryService categoryService)
         {
@@ -29,7 +29,7 @@ namespace RealHouzing.ApiLayer.Controllers
         {
             var value = _categoryService.TGetById(id);
             _categoryService.TDelete(value);
-            return Ok(value);
+            return Ok();
         }
 
         [HttpPost]

@@ -7,7 +7,95 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.13" />
+    <None Include="wwwroot\web\button.html" />
+    <None Include="wwwroot\web\calendar.html" />
+    <None Include="wwwroot\web\charts.html" />
+    <None Include="wwwroot\web\css\basictable.css" />
+    <None Include="wwwroot\web\css\bootstrap.min.css" />
+    <None Include="wwwroot\web\css\font-awesome.css" />
+    <None Include="wwwroot\web\css\icon-font.min.css" />
+    <None Include="wwwroot\web\css\jqcandlestick.css" />
+    <None Include="wwwroot\web\css\jquery-ui.css" />
+    <None Include="wwwroot\web\css\lightbox.css" />
+    <None Include="wwwroot\web\css\monthly.css" />
+    <None Include="wwwroot\web\css\morris.css" />
+    <None Include="wwwroot\web\css\style.css" />
+    <None Include="wwwroot\web\css\table-style.css" />
+    <None Include="wwwroot\web\errorpage.html" />
+    <None Include="wwwroot\web\faq.html" />
+    <None Include="wwwroot\web\fonts\fontawesome-webfont.eot" />
+    <None Include="wwwroot\web\fonts\fontawesome-webfont.svg" />
+    <None Include="wwwroot\web\fonts\fontawesome-webfont.ttf" />
+    <None Include="wwwroot\web\fonts\fontawesome-webfont.woff" />
+    <None Include="wwwroot\web\fonts\fontawesome-webfont.woff2" />
+    <None Include="wwwroot\web\fonts\FontAwesome.otf" />
+    <None Include="wwwroot\web\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="wwwroot\web\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="wwwroot\web\gallery.html" />
+    <None Include="wwwroot\web\grid.html" />
+    <None Include="wwwroot\web\icons.html" />
+    <None Include="wwwroot\web\images\close.png" />
+    <None Include="wwwroot\web\images\closew.gif" />
+    <None Include="wwwroot\web\images\cross.png" />
+    <None Include="wwwroot\web\images\g1.jpg" />
+    <None Include="wwwroot\web\images\g2.jpg" />
+    <None Include="wwwroot\web\images\g3.jpg" />
+    <None Include="wwwroot\web\images\g4.jpg" />
+    <None Include="wwwroot\web\images\g5.jpg" />
+    <None Include="wwwroot\web\images\g6.jpg" />
+    <None Include="wwwroot\web\images\g7.jpg" />
+    <None Include="wwwroot\web\images\g8.jpg" />
+    <None Include="wwwroot\web\images\g9.jpg" />
+    <None Include="wwwroot\web\images\grid.png" />
+    <None Include="wwwroot\web\images\icon_sprite.png" />
+    <None Include="wwwroot\web\images\in.jpg" />
+    <None Include="wwwroot\web\images\in1.jpg" />
+    <None Include="wwwroot\web\images\in10.jpg" />
+    <None Include="wwwroot\web\images\in11.jpg" />
+    <None Include="wwwroot\web\images\in2.jpg" />
+    <None Include="wwwroot\web\images\in3.jpg" />
+    <None Include="wwwroot\web\images\in4.jpg" />
+    <None Include="wwwroot\web\images\in5.jpg" />
+    <None Include="wwwroot\web\images\in6.jpg" />
+    <None Include="wwwroot\web\images\in7.jpg" />
+    <None Include="wwwroot\web\images\in8.jpg" />
+    <None Include="wwwroot\web\images\in9.jpg" />
+    <None Include="wwwroot\web\images\leftw.gif" />
+    <None Include="wwwroot\web\images\next.png" />
+    <None Include="wwwroot\web\images\phon.png" />
+    <None Include="wwwroot\web\images\prev.png" />
+    <None Include="wwwroot\web\images\rightw.gif" />
+    <None Include="wwwroot\web\images\right_arrow.png" />
+    <None Include="wwwroot\web\images\search.png" />
+    <None Include="wwwroot\web\images\smile.png" />
+    <None Include="wwwroot\web\images\tick.png" />
+    <None Include="wwwroot\web\images\tick1.png" />
+    <None Include="wwwroot\web\inbox.html" />
+    <None Include="wwwroot\web\index.html" />
+    <None Include="wwwroot\web\input.html" />
+    <None Include="wwwroot\web\js\bootstrap.min.js" />
+    <None Include="wwwroot\web\js\Chart.js" />
+    <None Include="wwwroot\web\js\jquery-2.1.4.min.js" />
+    <None Include="wwwroot\web\js\jquery-ui.js" />
+    <None Include="wwwroot\web\js\jquery.basictable.min.js" />
+    <None Include="wwwroot\web\js\jquery.jqcandlestick.min.js" />
+    <None Include="wwwroot\web\js\jquery.nicescroll.js" />
+    <None Include="wwwroot\web\js\lightbox-plus-jquery.min.js" />
+    <None Include="wwwroot\web\js\monthly.js" />
+    <None Include="wwwroot\web\js\morris.js" />
+    <None Include="wwwroot\web\js\raphael-min.js" />
+    <None Include="wwwroot\web\js\scripts.js" />
+    <None Include="wwwroot\web\maps.html" />
+    <None Include="wwwroot\web\signin.html" />
+    <None Include="wwwroot\web\signup.html" />
+    <None Include="wwwroot\web\tabels.html" />
+    <None Include="wwwroot\web\typography.html" />
+    <None Include="wwwroot\web\validation.html" />
+    <None Include="wwwroot\web\w3layouts-License.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.14" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 

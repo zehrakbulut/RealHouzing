@@ -10,6 +10,8 @@ namespace RealHouzing.EntityLayer.Concrete
     {
         public int CategoryID { get; set; }
         public string CategoryName { get; set; }
+        public string Icon { get; set; }
+        public string ImageUrl { get; set; }
 
         public List<Product> Products { get; set; }
     }

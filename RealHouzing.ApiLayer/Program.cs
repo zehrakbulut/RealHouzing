@@ -16,6 +16,57 @@ builder.Services.AddScoped<ICategoryService, CategoryManager>();
 builder.Services.AddScoped<IProductDal, EfProductDal>();
 builder.Services.AddScoped<IProductService, ProductManager>();
 
+builder.Services.AddScoped<IBuyingDal, EfBuyingDal>();
+builder.Services.AddScoped<IBuyingService, BuyingManager>();
+
+builder.Services.AddScoped<ICommercialDal, EfCommercialDal>();
+builder.Services.AddScoped<ICommercialService, CommercialManager>();
+
+builder.Services.AddScoped<IContactDal, EfContactDal>();
+builder.Services.AddScoped<IContactService, ContactManager>();
+
+builder.Services.AddScoped<IContactInfoDal, EfContactInfoDal>();
+builder.Services.AddScoped<IContactInfoService, ContactInfoManager>();
+
+builder.Services.AddScoped<IExpertDal, EfExpertDal>();
+builder.Services.AddScoped<IExpertService, ExpertManager>();
+
+builder.Services.AddScoped<IFindDal, EFFindDal>();
+builder.Services.AddScoped<IFindService, FindManager>();
+
+builder.Services.AddScoped<IJoinDal, EfJoinDal>();
+builder.Services.AddScoped<IJoinService, JoinManager>();
+
+builder.Services.AddScoped<IMapDal, EfMapDal>();
+builder.Services.AddScoped<IMapService, MapManager>();
+
+builder.Services.AddScoped<IMissionDal, EfMissionDal>();
+builder.Services.AddScoped<IMissionService, MissionManager>();
+
+builder.Services.AddScoped<INewsDal, EfNewsDal>();
+builder.Services.AddScoped<INewsService, NewsManager>();
+
+builder.Services.AddScoped<IOptionDal, EfOptionDal>();
+builder.Services.AddScoped<IOptionService, OptionManager>();
+
+builder.Services.AddScoped<IPlanDal, EfPlanDal>();
+builder.Services.AddScoped<IPlanService, PlanManager>();
+
+builder.Services.AddScoped<IProgressDal, EfProgressDal>();
+builder.Services.AddScoped<IProgressService, ProgressManager>();
+
+builder.Services.AddScoped<IPropertyDal, EfPropertyDal>();
+builder.Services.AddScoped<IPropertyService, PropertyManager>();
+
+builder.Services.AddScoped<IQuestionDal, EfQuestionDal>();
+builder.Services.AddScoped<IQuestionService, QuestionManager>();
+
+builder.Services.AddScoped<IRegisterPropertyDal, EfRegisterPropertyDal>();
+builder.Services.AddScoped<IRegisterPropertyService, RegisterPropertyManager>();
+
+
+
+
 builder.Services.AddControllersWithViews().AddJsonOptions(options => options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
 
 

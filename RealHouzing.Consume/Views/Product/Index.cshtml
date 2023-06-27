@@ -1,0 +1,31 @@
+﻿@model List<ProductListViewModel>
+@{
+    Layout = null;
+}
+<link href="~/lib/bootstrap/dist/css/bootstrap.rtl.min.css" rel="stylesheet" />
+
+<div class="container">
+    <br /><br />
+    <table class="table table-bordered">
+        <tr>
+            <th>#</th>
+            <th>Başlık</th>
+            <th>Fiyat</th>
+            <th>Tür</th>
+            <th>Kategori</th>
+            <th>Sil</th>
+        </tr>
+        @foreach(var item in Model)
+        {
+            <tr>
+                <td>@item.ProductId</td>
+                <td>@item.ProductTitle</td>
+                <td>@item.ProductPrice</td>
+                <td>@item.ProductType</td>
+                <td>@item.CategoryID</td>
+                <td><a href="/Product/DeleteProduct/@item.ProductId" class="btn btn-danger">Sil</a></td>
+            </tr>
+        }
+    </table>
+    <a href="#" class="btn btn-primary">Yeni Emlak Girişi</a>
+</div>

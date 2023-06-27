@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Metadata.Ecma335;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -17,6 +18,7 @@ namespace RealHouzing.EntityLayer.Concrete
         public int BathCount { get; set; }
         public int Square { get; set; }
         public string CoverImageUrl { get; set; }
+        public bool IsItDone { get; set; }
 
         public Category Category { get; set; }
         public int CategoryID { get; set; }
